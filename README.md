@@ -14,7 +14,7 @@ We have been provided with a dataset of 9,854 images of the Moon surface which c
 
 ## Methodology
 
-The evaluation metric for the competition is **balanced accuracy**, so it is important that both craters and hills are correctly classified:
+- The evaluation metric for the competition is **balanced accuracy**, so it is important that both craters and hills are correctly classified:
 
 $$\text{Balanced Accuracy} = \frac{\text{Sensitivity} + \text{Specificity}}{2} = \frac{1}{2} \left( \frac{\text{TP}}{\text{TP} + \text{FN}} + \frac{\text{TN}}{\text{TN} + \text{FP}} \right)$$
 
