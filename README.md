@@ -1,7 +1,5 @@
 # Moon Surface Crater-Hill Classification
 
-## About Competition
-
 This notebook was made for the competition hosted by IEEE SIES GST: **"The Pareidolia Paradox"**.
 
 ## Problem Statement
