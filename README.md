@@ -2,7 +2,7 @@
 
 ## About Competition
 
-This notebook was made for the competition hosted by IEEE SIES GST — **"The Pareidolia Paradox"**.
+This notebook was made for the competition hosted by IEEE SIES GST: **"The Pareidolia Paradox"**.
 
 ## Problem Statement
 
