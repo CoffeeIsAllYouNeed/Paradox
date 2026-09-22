@@ -36,5 +36,5 @@ $$\text{Balanced Accuracy} = \frac{\text{Sensitivity} + \text{Specificity}}{2} =
 - After testing a couple of different models, a few models stood out and were ensembled using Hill Climb:
 
 <p align="center">
-  <img src="images/architecture_paradox.png" alt="Model Architecture" width="700">
+  <img src="architecture_paradox.png" alt="Model Architecture" width="700">
 </p>
