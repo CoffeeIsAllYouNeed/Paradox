@@ -36,5 +36,16 @@ $$\text{Balanced Accuracy} = \frac{\text{Sensitivity} + \text{Specificity}}{2} =
 - After testing a couple of different models, a few models stood out and were ensembled using Hill Climb:
 
 <p align="center">
-  <img src="architecture_paradox.png" alt="Model Architecture" width="700">
+  <img src="images/architecture_paradox.png" alt="Model Architecture" width="700">
 </p>
+
+## Results
+
+| Model | Balanced Accuracy | Weight |
+| --- | --- | --- |
+| ConvNeXt-Nano | 0.7503 | 0.3137 |
+| ViT-Medium | 0.7465 | 0.2941 |
+| EdgeNeXt-Small | 0.7492 | 0.2549 |
+| U-Net | 0.7479 | 0.1176 |
+| MobileViTv2-100 | 0.7438 | 0.0196 |
+| **Ensemble (Hill Climb)** | **0.7621** | — |
