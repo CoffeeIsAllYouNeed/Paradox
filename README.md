@@ -2,7 +2,7 @@
 
 ## About Competition
 
-This notebook was made for the competition hosted by IEEE SIES GST: **"The Pareidolia Paradox"**.
+This notebook was made for the competition hosted by IEEE SIES GST — **"The Pareidolia Paradox"**.
 
 ## Problem Statement
 
@@ -24,7 +24,7 @@ $$\text{Balanced Accuracy} = \frac{\text{Sensitivity} + \text{Specificity}}{2} =
 - **ResNet-18** was chosen as the base model to test features.
 - We were given a clue to use the **sun azimuthal angle** in our model. There are two ways it could be implemented:
   1. **Rotation of images counter-clockwise by `-sun_azimuth_angle`.** *(implemented)*
-  2. **As a feature.** The sun's azimuthal angle influences the brightness in each image, which becomes a critical factor in crater and hill feature engineering — crater images tend to have dark patches concentrated in one section, while hill images have brighter patches spread across the image with a pitch-black sky at the top. We tested this as a feature, but it reduced our baseline score by 0.02–0.03. *(dropped)*
+  2. **As a feature.** The sun's azimuthal angle influences the brightness in each image, which becomes a critical factor in crater and hill feature engineering — crater images tend to have dark patches concentrated in one section, while hill images have brighter patches spread across the image with a pitch-black sky at the top. We tested this as a feature, but it reduced our baseline score by 0.02–0.03, so it was dropped.
 - Overall, ResNet models — ResNet-18, ResNet-34, and ResNet-50 — performed quite poorly:
 
 | Configuration | Balanced Acc |
