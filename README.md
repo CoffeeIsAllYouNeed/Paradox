@@ -46,4 +46,4 @@ $$\text{Balanced Accuracy} = \frac{\text{Sensitivity} + \text{Specificity}}{2} =
 | EdgeNeXt-Small | 0.7492 | 0.2549 |
 | U-Net | 0.7479 | 0.1176 |
 | MobileViTv2-100 | 0.7438 | 0.0196 |
-| **Ensemble (Hill Climb)** | **0.7621** | N/A |
+| **Ensemble (Hill Climb)** | **0.7621** | -- |
