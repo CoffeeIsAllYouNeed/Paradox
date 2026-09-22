@@ -52,7 +52,7 @@ $$\text{Balanced Accuracy} = \frac{\text{Sensitivity} + \text{Specificity}}{2} =
 
 ## LinkedIn Post
 
-[View the LinkedIn post here]([https://www.linkedin.com/](https://lnkd.in/p/dqev7cW8)) <!-- TODO: replace with your actual post link -->
+[View the LinkedIn post here](https://lnkd.in/p/dqev7cW8)
 
 ## Proof of Work
 
